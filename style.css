@@ -63,6 +63,9 @@ button:hover {
 .main-head {
     background: #131c27;
     color: #fff;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
 }
 
 nav {
@@ -73,6 +76,7 @@ nav {
     min-height: 10vh;
     align-items: center;
     flex-wrap: wrap;
+    position: sticky;
 }
 
 nav ul {
